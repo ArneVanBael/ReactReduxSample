@@ -1,0 +1,11 @@
+#dose-table {
+    margin-top: 30px;
+
+    tr.grow {
+        transition: all .2s ease-in-out;
+        &:hover {
+            transform: scale(1.005);
+            cursor: pointer;
+        }
+    }
+}
