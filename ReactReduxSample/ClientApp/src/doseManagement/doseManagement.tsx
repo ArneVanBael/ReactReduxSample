@@ -11,7 +11,7 @@ const DoseManagement = () => {
   const dispatch = useDispatch();
 
   const loadDoses = () => {
-    dispatch(actionCreators.loadDoses());
+    dispatch(actionCreators.loadDosesFromApi());
   };
 
   return (
